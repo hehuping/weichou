@@ -92,6 +92,11 @@ $mune = '{
                "name":"微信众筹",
                "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/index/index&scope=snsapi_userinfo&response_type=code&state=hehuping#wechat_redirect"
             },
+						{
+               "type":"view",
+               "name":"测试信息",
+               "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/wtest.php&scope=snsapi_userinfo&response_type=code&state=hehuping#wechat_redirect"
+            },
             ]
        }]
  }';
