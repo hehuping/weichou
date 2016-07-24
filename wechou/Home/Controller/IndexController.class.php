@@ -9,7 +9,13 @@ class IndexController extends Controller {
       //获取code
       $code = I('code');
       $accessToken = getAccessToken($code);
-      print_r($accessToken);
+      $accessToken = $accessToken->access_token;
+      $openId = $accessToken->openId;
+
+      //获取用户信息
+      $userInfo = getUserInfo($accessToken, $openId);
+      print_r($userInfo);
+
 
   }
 
