@@ -6,7 +6,7 @@ use Org\Util\Date;
 class IndexController extends Controller {
 
   public function _initialize(){
-      //获取code
+     /* //获取code
       $code = I('code');
       $accessToken = getAccessToken($code);
       $accessToken = $accessToken->access_token;
@@ -14,7 +14,10 @@ class IndexController extends Controller {
 
       //获取用户信息
       $userInfo = getUserInfo($accessToken, $openId);
+      print_r($userInfo);*/
+      $userInfo = getUserInfo();
       print_r($userInfo);
+      die;
 
 
   }
