@@ -1,0 +1,528 @@
+[ 2016-07-12T20:30:13+08:00 ] ::1 /Backend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T20:30:21+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.2190s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.019002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019002s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T20:30:25+08:00 ] ::1 /Backend/manager/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0590s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\wechou\wechou\Backend\Controller\ManagerController.class.php on line 26 and defined E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT goods.*,cate.catename FROM `goods` LEFT JOIN cate ON cate.cid = goods.cate_id  ORDER BY goods.addtime LIMIT 0,15   [ RunTime:0.0850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c79cadac604f003193a32360a945190b.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T20:31:58+08:00 ] ::1 /backend/manager/change/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cate` WHERE ( status != -1 )  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `goods` WHERE ( gid=3 && status != -1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T20:32:20+08:00 ] ::1 /backend/manager/change/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cate` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( gid=3 && status != -1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T20:32:26+08:00 ] ::1 /backend/manager/dochange?goods_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: UPDATE `goods` SET `title`='来自广西大山里的馈赠，天然无公害『百香果』',`content`='<p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#ff0000\">广西百香果，天然无公害种植，品质优良、味道鲜美，感谢大家支持！这是在湖南省的一个小村庄里面，这里因为气候原因产出的西瓜质量极高，但是由于交通闭塞，农民朋友们长时间找不到销路，眼看着西瓜就要成熟了，一个个淳朴的农民都为此睡不着觉.....</span></p><p><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035813861478325180baae4d2.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650358326777dd0587f18cc22be.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650358441318a5dd76a4f3207b5.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035915682ff5cc5f5a4355669.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035855719636a6dfb87352a8b.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/146503593127556ea5fade114324c.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650359538926e50a0b419d2309f.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035984392ef6ea83498e97069.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035994471734d540188504138.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036003599ab7d16bd40801c29.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650360121668c3387ccc81db319.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650360195485acd1f32f032d684.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036027663a15f8e974471d20a.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036038785f1aed578d79b1105.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p><br/></p>',`target_money`='30000',`cycle`='23',`cate_id`='1',`images`='1467550734cbfdgae.jpg,1467550738cgdfbea.jpg,1467550740ceafbgd.jpg,1467550756gfabced.jpg' WHERE `gid` = 3 [ RunTime:0.0810s ]
+
+[ 2016-07-12T20:32:28+08:00 ] ::1 /backend/manager/spec/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `spec` WHERE ( gid=3 ) ORDER BY money asc  [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T20:32:37+08:00 ] ::1 /Backend/manager/delspec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0050s ]
+SQL: DELETE FROM `spec` WHERE ( sid=1 ) [ RunTime:0.1094s ]
+
+[ 2016-07-12T20:32:38+08:00 ] ::1 /Backend/manager/spec/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `spec` WHERE ( gid=3 ) ORDER BY money asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T20:32:40+08:00 ] ::1 /Backend/Manager/check/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: UPDATE `goods` SET `status`='1' WHERE `gid` = 3 [ RunTime:0.0340s ]
+
+[ 2016-07-12T20:32:41+08:00 ] ::1 /backend/manager.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\wechou\wechou\Backend\Controller\ManagerController.class.php on line 26 and defined E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT goods.*,cate.catename FROM `goods` LEFT JOIN cate ON cate.cid = goods.cate_id  ORDER BY goods.addtime LIMIT 0,15   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c79cadac604f003193a32360a945190b.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T21:07:01+08:00 ] ::1 /backend/manager/change/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cate` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( gid=3 && status != -1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T21:07:12+08:00 ] ::1 /backend/manager/dochange?goods_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: UPDATE `goods` SET `title`='来自广西大山里的馈赠，天然无公害『百香果』',`content`='<p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#ff0000\">广西百香果，天然无公害种植，品质优良、味道鲜美，感谢大家支持！这是在湖南省的一个小村庄里面，这里因为气候原因产出的西瓜质量极高，但是由于交通闭塞，农民朋友们长时间找不到销路，眼看着西瓜就要成熟了，一个个淳朴的农民都为此睡不着觉.....</span></p><p><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035813861478325180baae4d2.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650358326777dd0587f18cc22be.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650358441318a5dd76a4f3207b5.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035915682ff5cc5f5a4355669.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035855719636a6dfb87352a8b.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/146503593127556ea5fade114324c.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650359538926e50a0b419d2309f.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035984392ef6ea83498e97069.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035994471734d540188504138.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036003599ab7d16bd40801c29.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650360121668c3387ccc81db319.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650360195485acd1f32f032d684.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036027663a15f8e974471d20a.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036038785f1aed578d79b1105.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p><br/></p>',`target_money`='30000',`cycle`='23',`cate_id`='1',`images`='1467550734cbfdgae.jpg,1467550738cgdfbea.jpg,1467550740ceafbgd.jpg,1467550756gfabced.jpg' WHERE `gid` = 3 [ RunTime:0.0310s ]
+
+[ 2016-07-12T21:07:14+08:00 ] ::1 /backend/manager/spec/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `spec` WHERE ( gid=3 ) ORDER BY money asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-12T21:25:03+08:00 ] ::1 /backend/manager/spec/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `spec` WHERE ( gid=3 ) ORDER BY money asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-07-12T21:25:04+08:00 ] ::1 /Backend/Manager/expenses/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `expenses` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `expenses` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-12T21:25:07+08:00 ] ::1 /Backend/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\wechou\wechou\Backend\Controller\ManagerController.class.php on line 26 and defined E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT goods.*,cate.catename FROM `goods` LEFT JOIN cate ON cate.cid = goods.cate_id  ORDER BY goods.addtime LIMIT 0,15   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c79cadac604f003193a32360a945190b.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T21:25:54+08:00 ] ::1 /Backend/Manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\wechou\wechou\Backend\Controller\ManagerController.class.php on line 26 and defined E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\wechou\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT goods.*,cate.catename FROM `goods` LEFT JOIN cate ON cate.cid = goods.cate_id  ORDER BY goods.addtime LIMIT 0,15   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c79cadac604f003193a32360a945190b.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T21:25:55+08:00 ] ::1 /backend/manager/change/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( gid=3 && status != -1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\d2f5ae539c55b4a85eb2ef459cc67f34.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-12T21:26:02+08:00 ] ::1 /backend/manager/dochange?goods_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: UPDATE `goods` SET `title`='来自广西大山里的馈赠，天然无公害『百香果』',`content`='<p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#ff0000\">广西百香果，天然无公害种植，品质优良、味道鲜美，感谢大家支持！这是在湖南省的一个小村庄里面，这里因为气候原因产出的西瓜质量极高，但是由于交通闭塞，农民朋友们长时间找不到销路，眼看着西瓜就要成熟了，一个个淳朴的农民都为此睡不着觉.....</span></p><p><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035813861478325180baae4d2.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650358326777dd0587f18cc22be.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650358441318a5dd76a4f3207b5.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035915682ff5cc5f5a4355669.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035855719636a6dfb87352a8b.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/146503593127556ea5fade114324c.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650359538926e50a0b419d2309f.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035984392ef6ea83498e97069.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465035994471734d540188504138.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036003599ab7d16bd40801c29.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650360121668c3387ccc81db319.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/14650360195485acd1f32f032d684.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036027663a15f8e974471d20a.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201606/04/1465036038785f1aed578d79b1105.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p><br/></p>',`target_money`='30000',`cycle`='23',`cate_id`='1',`images`='1467550734cbfdgae.jpg,1467550738cgdfbea.jpg,1467550740ceafbgd.jpg,1467550756gfabced.jpg' WHERE `gid` = 3 [ RunTime:0.0870s ]
+
+[ 2016-07-12T21:26:03+08:00 ] ::1 /backend/manager/spec/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `spec` WHERE ( gid=3 ) ORDER BY money asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 74 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\938ffe1e1f3954b079152402c36e0a44.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-07-12T21:26:05+08:00 ] ::1 /Backend/Manager/expenses/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `expenses` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `expenses` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\ac3c5e55efdee45f4fff561125ecf750.php 第 50 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\ac3c5e55efdee45f4fff561125ecf750.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T21:41:39+08:00 ] ::1 /Backend/Manager/expenses/goods_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `expenses` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `expenses` WHERE ( gid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\ac3c5e55efdee45f4fff561125ecf750.php 第 50 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\ac3c5e55efdee45f4fff561125ecf750.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-12T21:41:43+08:00 ] ::1 /Backend/Manager/expensesave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+ERR: 非法操作:expensesave
+
+[ 2016-07-12T21:42:20+08:00 ] ::1 /Backend/Manager/expensesave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

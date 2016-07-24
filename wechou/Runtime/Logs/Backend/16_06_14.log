@@ -1,0 +1,1586 @@
+[ 2016-06-14T19:18:24+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.1000s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021001s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 44 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.045002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:19:39+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 44 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:19:54+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 44 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:20:14+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 44 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:31:50+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 44 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-06-14T19:32:27+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 44 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:33:10+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 47 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:34:30+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 47 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-06-14T19:36:45+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2016-06-14T19:37:21+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-06-14T19:37:23+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:38:36+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:48:43+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042003s ]
+
+[ 2016-06-14T19:49:21+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:51:07+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:51:32+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T19:53:06+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-14T20:01:27+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-06-14T20:01:31+08:00 ] ::1 /Backend/manager/basesave?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:basesave
+
+[ 2016-06-14T20:02:06+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-06-14T20:02:21+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:02:24+08:00 ] ::1 /Backend/manager/basesave?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:basesave
+
+[ 2016-06-14T20:02:48+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:02:49+08:00 ] ::1 /Backend/manager/basesave?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:basesave
+
+[ 2016-06-14T20:03:48+08:00 ] ::1 /Backend/manager/basesave?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 非法操作:basesave
+
+[ 2016-06-14T20:03:52+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.046003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.046003s ]
+
+[ 2016-06-14T20:03:54+08:00 ] ::1 /Backend/manager/basesave?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:basesave
+
+[ 2016-06-14T20:04:20+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:04:22+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:04:55+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033002s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.058003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.107006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.107006s ]
+
+[ 2016-06-14T20:05:46+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:05:48+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:05:52+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:05:54+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:05:57+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:06:09+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:06:16+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-06-14T20:07:41+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013000s ]
+
+[ 2016-06-14T20:11:49+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-06-14T20:13:20+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-06-14T20:13:37+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-14T20:14:23+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037002s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034002s ]
+
+[ 2016-06-14T20:17:04+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032002s ]
+
+[ 2016-06-14T20:17:50+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030002s ]
+
+[ 2016-06-14T20:17:56+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:21:11+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.052003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2016-06-14T20:21:52+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-06-14T20:22:25+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.073005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.054003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054003s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.174010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.174010s ]
+
+[ 2016-06-14T20:22:49+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.083004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.083004s ]
+
+[ 2016-06-14T20:23:14+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2016-06-14T20:25:01+08:00 ] ::1 /Backend/manager/send?cate=1&title=&money=&time=&sendtime=06%2F14%2F2016
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T20:25:06+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-14T20:25:13+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:29:18+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.052003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.058003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025002s ]
+
+[ 2016-06-14T20:30:22+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-06-14T20:31:39+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+
+[ 2016-06-14T20:32:25+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.054003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054003s ]
+
+[ 2016-06-14T20:33:21+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-06-14T20:34:50+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-06-14T20:35:35+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-14T20:35:52+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T20:36:28+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.068003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.068003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.084005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.084005s ]
+
+[ 2016-06-14T22:27:11+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:3.1972s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.1810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041002s ]
+
+[ 2016-06-14T22:27:28+08:00 ] ::1 /Backend/manager/basesave?cate=1&title=hbgjnhg&money=76&time=777&sendtime=06%2F14%2F2016&editorValue=%3Cp%3Ehgjhgjhg%3C%2Fp%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T22:28:28+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.076005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.076005s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.052003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.053003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.061004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.061004s ]
+
+[ 2016-06-14T22:28:36+08:00 ] ::1 /Backend/manager/basesave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T22:57:40+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031002s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.200011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.075004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.075004s ]
+
+[ 2016-06-14T22:58:48+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2016-06-14T23:01:25+08:00 ] ::1 /Backend/manager/basesave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-06-14T23:01:29+08:00 ] ::1 /Backend/manager/send
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cate` WHERE ( status=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 52 行.
+NOTIC: [8] Undefined index: user E:\xampp\htdocs\wechou\wechou\Runtime\Cache\Backend\c6bd15d8b5e9d014106da2fdd0bad70f.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2016-06-14T23:03:12+08:00 ] ::1 /Backend/manager/basesave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: INSERT INTO `goods` (`title`,`content`,`target_money`,`cycle`) VALUES ('曾为“丝路宝石”的民勤，如今几多欢喜几多忧？','<p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"text-align: left;\"><span style=\"font-weight: 600;font-size:24px;color:#000000\">曾为“丝路宝石”的民勤</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"line-height: 1.8; text-align: left;font-size:24px;color:#000000\"><span style=\"font-weight: 600;\">如今几多欢喜几多忧</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px\"><span style=\"line-height: 1.8; text-align: right;\"><span style=\"color:#000000\">&nbsp;</span><span style=\"color:#ff0000\">&nbsp;——民勤骏枣滞销，求援网络众筹</span></span><br/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"line-height: 1.8; text-align: right;font-size:24px;color:#000000\"><span style=\"font-weight: 600;\">【前言】</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"line-height: 1.8; text-align: right;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;首先感谢轻松筹平台在第一期活动中为我们农民合作社提供的帮助，<span style=\"font-weight: 600;\">轻松筹平台众多的粉丝、良好的市场信誉，让我们能够有机会面对如此多的正知、向善的客户朋友；</span></span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"line-height: 1.8; text-align: right;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;其次感谢第一期活动中给我们伸出援手的客户朋友，是你们的支持与关注让我们从冬季沮丧到春季的农户们看到了未来的希望，也给了我巨大的信心，更加坚定了我“让民勤特产走向全国客户”的决心！</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"line-height: 1.8; text-align: right;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style=\"font-weight: 600;\">一周的时间，客户朋友们通过轻松筹平台极大的帮助了我们！</span></span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/19/14636450061094fb63dbb6a34e52a.png\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; color: rgb(0, 0, 0); text-align: left; width: auto !important;\"/><br/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"line-height: 1.8; text-align: right;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style=\"font-weight: 600;\">但是在活动中也出现了很多工作失误。</span></span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"line-height: 1.8; text-align: right;\">&nbsp; &nbsp; &nbsp; &nbsp; 1、&nbsp;<span style=\"font-weight: 600;\">因合作社仅我一人懂电脑办公，从活动方案设计、红枣风干、除尘、装箱、发货、上传客户数据、上传快递单号到售后客服，都是我一个人在做，精力有限，部分客户的产品重复发货，部分客户的产品没能及时发货。</span></span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"line-height: 1.8; text-align: right;\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span><span style=\"color: rgb(0, 0, 0); text-align: right; font-size: large;\">2、</span><span style=\"font-weight: 600; color: rgb(0, 0, 0); text-align: right; font-size: large;\">因我民勤当地风沙很大，果实表面难免会沾有灰尘，影响了我们客户对果实的第一眼影响，但是我当地没有第二产业的污染，空气、水流、灰尘都非常干净，收到产品后，用清水冲洗1分钟，无需揉搓，晾干水分即可食用！请您与家人放心！</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"line-height: 1.8; text-align: right;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-weight: 600;\">3、我们的红枣是自然风干，没有任何人工加工。我们的客户多是南方客户，处于对红枣不易在南方湿润环境里保存考虑，在装箱前我们再次将红枣风干了一遍，因此果肉水分较少，直接食用可能太干，建议您用清水冲洗后放置一天再吃，品质、口感更好！冰箱冷藏，保质期18个月！</span></span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"line-height: 1.8; text-align: right;font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"font-weight: 600; color: rgb(0, 0, 0); font-size: x-large;\">【关于民勤的故事】</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 民勤，素有人居长城之外，文在诸夏之先的美称，历史上有文运之盛甲于河西之说；汉武帝时建城，历经北魏、大唐、大宋、清等多个王朝。<img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461928962923553d99a1a9296f0f.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中华民国17年（1928年）以俗朴风醇，人民勤劳而易名民勤。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 民勤地处河西走廊东北部，石羊河流域下游，西依新疆，北邻内蒙古，东西北三面被腾格里和巴丹吉林两大沙漠包围。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-weight: 600;\">被外界称之为：丝绸之路上的绿色宝石。</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461911896738609ad0275f959347.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 然而，50年代以来，伴随民勤地表水位急剧下降，环境极端恶化，青土湖干涸，石羊河断流，腾巴两大沙漠握手，荒漠化面积已占土地面积的94%，流沙以每年8-10米的速度向绿洲逼近。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp; 有一首书写民勤的诗----</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">别忘了，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">三千年前这里还是一片古海，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">三百年前这里还是波光粼粼，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">三十年前这里仍有鸭塘柳林，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">而三十年后，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">三十年后的今天，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">你们却只落得，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">一片荒漠，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">一道秃岭，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">一双呆痴的目光，</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">两片干裂的嘴唇！</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461911988139e453aa51f3b40222.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp;2005年，温家宝总理含泪说：<span style=\"font-weight: 600;\">决不让民勤成为第二个罗布泊！</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp;并连续六次在中央文件中批示，民勤才又一次被世人所关注！</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461912629307df5321020b9a8f89.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:24px;color:#000000\"><span style=\"font-weight: 600;\">【关于民勤的“国家扶持政策”】</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"color:#000000font-size:18px\">&nbsp; &nbsp;&nbsp; &nbsp; 2010年，民勤政府严格落实国务院办公厅出台的《关于进一步支持甘肃经济社会发展的若干意见》，加强生态环境建设和大力发展特色林果业等相关政策，鼓励带动百姓发展建设&nbsp;红枣、枸杞、苹果、葡萄、人参果、黄河蜜瓜&nbsp;等特色林果业，建造绿化林带+特色经济林长廊的特色民勤。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp; 至今，我县发展特色林果业15万亩，全县红枣挂果面积达到9.5万亩，总产量达到4134.7吨，这几年，我的父老乡亲看到了盼头！露出了笑脸！</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/146192952996810c17cab9fe900e6.jpg\" class=\"\" style=\"display: block; margin: 0px auto; max-width: 100%; font-size: large; text-align: left; width: auto !important;\"/><br/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-weight: 600;font-size:24px;color:#000000\">【父老乡亲的“希望果”滞销了&nbsp;】</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 然而，农产品连年丰收的短暂喜悦背后暗藏供大于求的市场饱和危机，伴随大市场环境的萧条与我县经济的落后以及农户产销信息的闭塞，农产品滞销成了广大农户的尴尬与痛，越来越成为农户们普遍的问题。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461913805953820bcc2a70be11a2.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-weight: 600;\">看到地头散落无人顾及的果实，看到父老乡亲满面的愁容……&nbsp;</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">&nbsp; &nbsp; &nbsp; &nbsp;回想家乡“天下有民勤，而民勤无天下”的历史……</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">&nbsp; &nbsp; &nbsp; &nbsp;回想“因为贫穷，所以落后，因为落后，所以贫穷”的恶性循环……</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><span style=\"font-weight: 600;\">&nbsp; &nbsp; &nbsp; &nbsp;我潸然泪下……&nbsp;</span>&nbsp;</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461930973108d12fa93950b8801c.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; font-size: large; text-align: left; width: auto !important;\"/><br/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;我是陶积荣，此次众筹的发起人。18岁参军，服役于空降兵某部队，2007年退役后，在外地打拼多年。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp;2015年冬季回家探亲时看到家乡农产品滞销的事情后，决然抛开所有顾虑，想要凭借这些年在外打拼积累的渠道和关系，帮助父老乡亲挽回或减少损失。<img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461930921695f218699007fc95ca.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; 背着红枣、枸杞、葵花籽等农产品，满怀让世人了解民勤、了解民勤特色产品的情怀从家乡出发——</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; 我走遍了山东青岛、济南、济宁、北京、天津、河北邯郸、保定、昆明、大理、贵阳、深圳、广州等地的农贸批发市场，希望找到收购商家，一个多月，结果只是杯水车薪!</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/146191413906571abd5be2cf2b17d.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp;3月底，为了有更好的市场征信度，我联合农户成立了“农民专业合作社”，取名“善乙农民专业合作社”，意为“上善若水，惠及农户，善及客户”！</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/14619311042343c855b5a57790d8c.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; font-size: large; text-align: left; width: auto !important;\"/><br/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;又一个多月过去了，低迷的市场没有因为乡亲的困境与我的奔波而丝毫改变……</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 曾经的豪情壮志在面对父老相亲那期盼的眼神时，我无言以对！&nbsp;</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-size:24px;color:#000000\"><span style=\"font-weight: 600;\">【我们看到了希望】</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2016年4月28日，北京一个网友给我发了轻松筹的一片众筹文章后，我欣喜狂若，面对这么庞大的网友群体，我却因一时心急给忽视了。自己也有网购经历，我却历经千辛万苦的满世界跑。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;朋友们，红枣的价值我不在这里赘述，大家都知道。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们合作社农户的红枣品种是骏枣，也称壶瓶玉枣，是我县政府2010年由新疆和田引进并成功种植的。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp; 可人们只记住了具有品牌优势的新疆大枣，对我们民勤大枣却不闻不问。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/146191519293509df7193f6df70bf.png\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color: rgb(0, 0, 0);\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"font-weight: 600;\"><span style=\"font-size:18px;color: rgb(0, 0, 0);\">因为民勤温带大陆性干旱气候，冬冷夏热、降水稀少、光照充足、昼夜温差大，</span><span style=\"font-size:16px\"><span style=\"color:#000000\">（</span><span style=\"color:#0000ff\">年均降水量近五年为127.7毫米，年均蒸发量2623毫米，昼夜温差15.5，年均气温8.3，日照时数为3073.5小时，无霜期162天</span><span style=\"color:#000000\">）</span></span><span style=\"font-size:18px;color: rgb(0, 0, 0);\">等地理、气候原因，民勤红枣皮薄肉厚，甘甜可口。</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201604/29/1461915342039c44c811ba6d8e7f5.png\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style=\"font-weight: 600;\">果树种植、护理、采摘均为人工，不含农药、防虫、防腐等有毒有害物质，百分百绿色食品，请您放心购买！&nbsp;</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"color:#000000\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/13/14630732835521288af8af95a2b89.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-weight: 600;color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-size:16px\">我们地处河西走廊，这里常年风沙肆虐，我们的产品难免会积有尘土，但我当地没有第二产业，环境没有任何污染，红枣上的白色不是发霉，是尘土，请您用清水冲洗即可食用！</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"font-weight: 600;font-size:24px;color:#000000\">【这将是您的一次超值购物】</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><em><span style=\"font-weight: 600;\">——价格——</span></em></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"color:#000000\"><span style=\"font-size:18px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 经过加工的骏枣干果市场零售价格为 &nbsp;&nbsp;</span><span style=\"font-weight: 600;font-size:18px\">20到48元/公斤&nbsp;</span>&nbsp;<span style=\"font-size:18px\">&nbsp;&nbsp;，礼品包装价格更高，我们合作社的红枣以农户直供，</span><span style=\"font-weight: 600;font-size:18px\">14.7元/公斤，5公斤包邮；</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"color:#000000\"><span style=\"font-size:18px\">&nbsp; &nbsp; &nbsp; &nbsp;</span><span style=\"line-height: 1.8;\"><span style=\"font-weight: 600;font-size:18px\">10斤/箱，整箱购买69元/箱，包邮。</span></span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"color:#000000\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-size:18px\"><span style=\"font-weight: 600;\">20斤/箱，整箱购买137元/箱，包邮。</span></span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><em style=\"font-size: large;\"><span style=\"font-weight: 600;color:#000000\">——质量——</span></em></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;果实采摘后在凉棚中自然风干，民勤因气候原因风沙较大，果实表面略有尘土，食用时请用清水冲洗。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><em><span style=\"font-weight: 600;\">——包装——</span></em></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为降低成本，您购买后，我们将手工装袋纸箱发货，确保您收到卫生、安全的产品。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><em><span style=\"font-weight: 600;\">——发货——</span></em></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下单后48小时内发货。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp; &nbsp;&nbsp;发货后3——5天到货</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><em><span style=\"font-weight: 600;\">——物流——</span></em></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为保证支持客户都能收到产品，我们选择邮政快递，一是政府支持的相关政策，二是邮政快递网络的相对健全，可以满足所有客户的包邮。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\"><em><span style=\"font-weight: 600;\">——售后——</span></em></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-weight: 600;\">当您收到产品后对我们的产品不满意，请联系我，尽最大可能满足您的诉求！</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal; text-align: center;\"><span style=\"color:#000000\"><span style=\"font-size:18px\">&nbsp; &nbsp;&nbsp;</span><span style=\"font-weight: 600;font-size:24px\">【资金使用支出】</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp;&nbsp;一、资金60%用于支付农户；</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp;二、资金15%用于快递包装支出；</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp;三、资金15%用于租借库存费用支出；</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px;color:#000000\">&nbsp; &nbsp;四、资金10%用于支出人工等其他费用。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-size:18px\"><span style=\"color:#000000\">&nbsp; &nbsp; &nbsp;&nbsp;</span><em><span style=\"font-weight: 600;\"><span style=\"color:#000000\">添加微信【</span><span style=\"color:#ff0000\">18993544446</span><span style=\"color:#000000\">】，加入我们售后服务群，我与所有老顾客帮助您解决任何关于产品的问题。</span></span></em></span></p><p><br/></p>','20000','30') [ RunTime:0.1380s ]
+
+[ 2016-06-14T23:08:56+08:00 ] ::1 /Backend/manager/basesave
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: INSERT INTO `goods` (`title`,`content`,`target_money`,`cycle`) VALUES ('《舌尖上中国》重磅推荐——酒糟鱼：醇醇的酒香+鲜美的鱼','<p><span style=\"font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\">（开盖即食哦）鄱阳湖最著名的小吃，就是我们的酒糟鱼了<span style=\"font-weight: 600;\">枣木红的鱼肉，有酒香、酒甜、酒酸，蒸煮之时，搁上红泡椒，又有些许的辣，淡淡的咸味儿</span>。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/14623685759680e0179eb80d51524.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\">此次众筹的初衷：生在长江边的我，从小就爱吃鱼，酒糟鱼也就更不用说了，不是最爱，而是最最最爱，光当零食吃，我就可以一下吃光一斤多，只要开始动<br/><br/>嘴了，那就叫一个根本停不下来，您还别不相信。记得上学的时候，每次去学校都会带一些去分享给同学们，上班后每次回家也会让家人做很多带给同事们尝尝，因为美食是需要分享的。<span style=\"color:#ff00ff\">很多外地人都没有吃过，吃过了都赞不绝口。而这次，我希望通过轻松筹，将家乡的美食带给全国各地的朋友们尝尝，让您也吃口我们鄱阳湖的鱼，吃上我们江西传承了几百年的美食：酒糟鱼！</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-weight: 600;\">我们郑重承诺，我们的酒糟鱼纯农家手工制作，不添加任何防腐剂、苏丹红等化学成分的物质，纯天然手工绿色食品，因为我们只做纯天然！！！</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img class=\"\" alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/1462368637190b99fdf702252879a.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-weight: 600;\">酒糟鱼是一客闲菜，你可不喝酒，也不吃饭，就着一盘酒糟鱼，精雕细琢地吃，潜心着意地品，那深深江湖询问的水声，那世事的沧桑、美好，便从酒糟鱼的肉质里湿润出来。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"font-weight: 600;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/146236866113351871f1e333f11e3.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img class=\"\" alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/146236868347232aaf6832c9a4ef5.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><span style=\"color:#ff00ff\"><span style=\"text-decoration:underline;\">我们的鱼选的是中国最大淡水湖鄱阳湖的鱼，因为这里的水质好，养出来的鱼味道鲜美，而且我们选的鱼是草鱼，因为草鱼是在湖水的中游行走的鱼，而大家都知道水质最好的位置就是中间的部分，所以这样的水养出来的鱼，味道那是杠杠的！！！</span></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img class=\"\" alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/14623687754082b5326147b00dc1c.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/146236881107931a0d17dfb980992.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/14623688318840cd371129110f01e.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/14623688499664ab24aabb5f8215a.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\"><img class=\"\" alt=\"轻松筹\" src=\"http://images.qschou.com/files/qschou.com/editor/201605/04/1462368860541b3c24bb9840215b7.jpg\" style=\"display: block; margin: 0px auto; max-width: 100%; width: auto !important;\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\">我们的秘制酒糟鱼常温保质期是2个月，冰箱保存更久，相对来说保质期还是比较长的，因为鱼是慢腌过 ，慢晒、然后最后还有酒的酿造，还需要油熬，所以大家请放心品尝！</p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\">【怎么参与众筹购买】-----点击我要参与-----使用微信登录----填写手机号码----收取验证码-----支持项目</p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\">【售后服务】有任何问题可电话联系18779126952，也可以加我微信1142109677</p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\">【关于运费】西藏、新疆、内蒙、宁夏、青海、甘肃、海南、云南的朋友需要补10元运费。其他地区包邮</p><p style=\"margin-top: 0px; margin-bottom: 0px; word-wrap: break-word; padding-bottom: 20px; color: rgb(34, 34, 34); font-family: &#39;Lantinghei SC&#39;, &#39;Open Sans&#39;, Arial, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei&#39;, 微软雅黑, STHeiti, &#39;WenQuanYi Micro Hei&#39;, SimSun, sans-serif; font-size: 17px; line-height: 30.6px; white-space: normal;\">【售前服务】大家放心购买，项目成功后我会每天给大家发货。港澳台的朋友不能发货，谢谢理解。如果轻松筹上无法购买的朋友可以加我微信1142109677，也可以长按下图中二维码——识别二维码加微信直接向我购买</p><p><br/></p>','30000','30') [ RunTime:0.0010s ]
+

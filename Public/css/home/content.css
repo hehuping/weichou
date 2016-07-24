@@ -1,0 +1,319 @@
+body{
+	font-family: "微软雅黑";
+}
+p{
+	font-size: 28px;
+	color: #666666;
+	font-family: "微软雅黑";
+}
+.top{
+	max-height:100px ;
+	width: 100%;
+}
+.top img{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+.weui_navbar_item a{
+	font-family: "微软雅黑";
+	color: white;
+}
+#bar_left{
+	text-align: left;
+	padding-left: 40px;
+	font-size: 40px;
+}
+#bar_right{
+	text-align: right;
+	padding-right: 40px;
+	font-size: 40px;
+}
+
+.weui_cells{
+	padding: 0px 15px 0px 15px;
+}
+
+.info1 .weui_cells{
+	margin-top: 25px;
+	
+}
+
+.weui_cells:before {
+	border-top: 0px solid #D9D9D9; 
+}
+
+.info1 .weui_cells img{
+	margin-right: 10px;
+	width: 85px;
+	border-radius:50%; overflow:hidden;
+	float: left;
+	/*border:double #F1F1F1 6px;*/
+}
+.info1 .weui_cells .weui_cell_bd p{
+	display: inline;
+	float: left;
+	line-height: 64px;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.info1 .weui_cells .weui_cell small{
+	color: #979797;
+}
+
+.info1 .weui_cell_ft{
+	 padding-top: 18px;
+}
+
+.info1 .weui_cell_ft strong{
+	color: orangered;
+}
+
+.info2 .weui_cell{
+	margin-top: 5px;
+	height: 120px;
+}
+
+.weui_cell_bd .money{
+	float: left;
+	width: 33%;
+	height: auto;
+	border-right: solid #DEDEDE 1px;
+	text-align: center;
+}
+
+#money{
+	border-right: solid #DEDEDE 0px;
+}
+.money strong{
+	color: coral;
+}
+
+.money p{
+	font-size: 35px;
+}
+
+.info2 .weui_cells:after {
+	border-top: 2px solid #D9D9D9; 
+}
+.info2 .weui_cells:after {
+	border-bottom: 2px solid #C9C9C9;
+}
+
+.info1 .weui_cells:after {
+	border-bottom: 0px solid #D9D9D9; 
+}
+
+.info3 .weui_cells {
+	margin-top: 5px;
+}
+
+.info3 .weui_cells{
+	margin-top: 10px;
+	min-height: 75px;
+}
+
+.info4{
+	margin-top: 20px;
+	border-bottom: 1px solid #D9D9D9;
+}
+.bj{
+	height: 25px;
+	background: #F5F5F5;
+}
+
+.info5 .weui_cells{
+	background: #FBFFFB;
+	margin-top: 0px;
+	line-height: 90px;
+	
+}
+#in1:after {
+	border-bottom: 2px solid #D9D9D9;
+}
+#in1{
+	height: 90px;
+}
+#in2{
+	height: 160px;
+    padding-top: 15px;
+}
+.yun{
+	color: #000000;
+	font-size: 40px;
+}
+
+.c_left p{
+	
+	font-size: 35px;
+	line-height: 60px;
+}
+
+.c_right{
+	margin-left: 30px;
+}
+
+.c_right p{
+	color: #454545;
+	font-size: 35px;
+	line-height: 60px;
+}
+
+.info7 .weui_cells{
+	margin-top: 20px;
+	
+}
+.info5 .weui_cells:after {
+	/*border-bottom: 2px solid #D9D9D9;*/
+}
+.info6 .weui_cells:after {
+	border-bottom: 2px solid #D9D9D9;
+}
+.info6 .weui_cells p{
+	font-size: 40px;
+	color: #000000;
+	height: 70px;
+}
+
+.weui_article p{
+	font-size: 16px;
+	color: #000000;
+}
+
+.big_h1{
+	font-size: 2.5em;
+}
+.info7_left{
+	width: 13%;
+	float: left;
+}
+.info7_right{
+	float: left;
+	width: 87%;
+}
+.info7_right .r_size{
+	font-size: 35px;
+	color: #454545;
+	display: inline;
+}
+.info7_right .r_size2{
+	font-size: 35px;
+	color: #454545;
+	display: inline;
+}
+.info7_right .r_top{
+	width: 100%;
+	height: 50px;
+}
+.info7 .weui_cells:after {
+	border-bottom: 2px solid #D9D9D9;
+}
+
+.r_top strong{
+	color: #FF4500;
+}
+.r_top h1{
+	display: inline;
+}
+.r_bottom p{
+	font-size: 30px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	color: #B2B2B2;
+}
+.top_right{
+	float: right;
+	display: inline;
+}
+.info8 .info8_left{
+	min-height: 220px;
+	float: left;
+	width: 14%;
+	
+}
+.info8_left img{
+	position:absolute;
+	width:100px;
+	margin-right:5px;
+	display:block;
+	top:15px;
+	border-radius: 50%;
+}
+.info8 .info8_right{
+	min-height: 220px;
+	float: left;
+	width: 86%;
+	margin-top: 20px;
+}
+.info8_right .p1{
+	margin: 5px;
+	display: inline;
+	color: #000000;
+	font-size: 35px;
+}
+.info8_right .p2{
+	display: inline;
+	font-size: 32px;
+	color: #888888;
+}
+.info8_right .p2 strong{
+	color: #FF4500;
+}
+.info8_right .p3{
+	margin: 10px;
+}
+.info8 .weui_cells:after {
+	border-bottom: 2px solid #D9D9D9;
+}
+
+.info9{
+	width: 100%;
+	height: 135px;
+	position: fixed;
+	bottom: 0px;
+	border-top: solid #B2B2B2 2px;
+	background: white;
+}
+.info9 .info9_left{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.info9_left img{
+	width: 95px;
+}
+.info9_left p{
+    line-height: 10px;
+}
+.info9_left small{
+	color: #FF4500;
+}
+.info9 .info9_center{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.info9 .info9_right{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.info9_right p{
+    line-height: 22px;
+}
+.info9_right small{
+	color: #FF4500;
+}
+.info9_right img{
+	width: 85px;
+}
+.weui_btn {
+	font-size: 40px;
+	margin-top: 22px;
+}
+#bar2{
+	height: 110px;
+	line-height: 88px;
+}
+
