@@ -5,9 +5,13 @@ use Think\Controller;
 use Org\Util\Date;
 class IndexController extends Controller {
 
-    /*public function parse($pa){
-        return $pa;
-    }*/
+  public function _initialize(){
+      //获取code
+      $code = I('code');
+      $accessToken = getAccessToken($code);
+      print_r($accessToken);
+
+  }
 
     public function index(){
 

@@ -16,4 +16,6 @@ return array(
     'MODULE_ALLOW_LIST'    =>    array('Home','Backend'),
     'DEFAULT_MODULE'       =>    'Home',
 
+    'Weixin_code',
+
 );
