@@ -6,19 +6,29 @@ use Org\Util\Date;
 class IndexController extends Controller {
 
   public function _initialize(){
-     /* //获取code
-      $code = I('code');
-      $accessToken = getAccessToken($code);
-      $accessToken = $accessToken->access_token;
-      $openId = $accessToken->openId;
 
-      //获取用户信息
-      $userInfo = getUserInfo($accessToken, $openId);
-      print_r($userInfo);*/
-      $userInfo = getUserInfo();
-      print_r($userInfo);
-      die;
+      if(empty(I('code'))){
+          $this->error("请在微信中打开");
+      }
 
+      $wuser = M('wuser');
+      $info = getUserInfo();
+      $has = $wuser->where("openid='{$info->openid}'")->find();
+      if(!$has){
+          $data = array(
+              'openid' => $info->openid,
+              'nickname' => $info->nickname,
+              'sex' => $info->sex,
+              'province' => $info->province,
+              'city' => $info->city,
+              'country' => $info->country,
+              'headimgurl' => $info->headimgurl,
+              'reg_time' => date("Y-m-d H:i:s",time()),
+          );
+          $wuser->add($data);
+      }else{
+          $wuser->save(['last_time'=>date('Y-m-d H:i:s')]);
+      }
 
   }
 
