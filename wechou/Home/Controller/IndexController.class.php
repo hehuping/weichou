@@ -10,7 +10,7 @@ class IndexController extends Controller {
      /* if(empty(I('code'))){
           $this->error("请在微信中打开");
       }*/
-      print_r($_SERVER);
+     // print_r($_SERVER);
 
       $wuser = M('wuser');
       $info = getUserInfo();
