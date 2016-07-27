@@ -8,9 +8,9 @@ class IndexController extends Controller {
   public function _initialize(){
 
       if(empty($_SESSION['user'])){
-          $action_name = __ACTION__;
+          $action_name = ACTION_NAME;
           $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/Login/index&scope=snsapi_userinfo&response_type=code&state={$action_name}#wechat_redirect";
-         echo $url;die;
+        // echo $url;die;
           $this->redirect($url);
       }
 
