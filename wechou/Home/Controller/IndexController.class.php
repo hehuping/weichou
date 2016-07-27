@@ -14,6 +14,7 @@ class IndexController extends Controller {
 
       $wuser = M('wuser');
       $info = getUserInfo();
+      print_r($info);die;
       $has = $wuser->where("openid='{$info->openid}'")->find();
       if(!$has){
           $data = array(
