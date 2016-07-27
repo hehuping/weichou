@@ -31,10 +31,13 @@ class LoginController extends Controller {
             $wuser->add($data);
             $_SESSION['user'] = $data;
         }else{
-            $wuser->save(['last_time'=>date('Y-m-d H:i:s')]);
+            $wuser->where("openid='{$info->openid}'")->save(['last_time'=>date('Y-m-d H:i:s')]);
             $_SESSION['user'] = $data;
         }
 
-        print_r($_SESSION);
+        $action = I('state');
+
+        $this->redirect("Index/{$action}");
+
     }
 }
