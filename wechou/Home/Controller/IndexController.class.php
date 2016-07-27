@@ -7,14 +7,15 @@ class IndexController extends Controller {
 
   public function _initialize(){
 
-     /* if(empty(I('code'))){
-          $this->error("请在微信中打开");
-      }*/
-     // print_r($_SERVER);
+      if(empty($_SESSION['user'])){
+          $action_name = __ACTION__;
+          $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/Login/index&scope=snsapi_userinfo&response_type=code&state={$action_name}#wechat_redirect";
+          $this->redirect($url);
+      }
 
-      $wuser = M('wuser');
+     /* $wuser = M('wuser');
       $info = getUserInfo();
-      print_r($info);die;
+
       $has = $wuser->where("openid='{$info->openid}'")->find();
       if(!$has){
           $data = array(
@@ -28,9 +29,11 @@ class IndexController extends Controller {
               'reg_time' => date("Y-m-d H:i:s",time()),
           );
           $wuser->add($data);
+          $_SESSION['user'] = $data;
       }else{
           $wuser->save(['last_time'=>date('Y-m-d H:i:s')]);
-      }
+          $_SESSION['user'] = $data;
+      }*/
 
   }
 
