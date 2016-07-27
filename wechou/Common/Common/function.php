@@ -46,6 +46,9 @@ function getUserInfo(){
     $content = file_get_contents($url);
 
     $obj = json_decode($content);
+
+    print_r($obj);
+
     $url = "https://api.weixin.qq.com/sns/userinfo?access_token={$obj->access_token}&openid={$obj->openid}&lang=zh_CN";
     $content = file_get_contents($url);
 
