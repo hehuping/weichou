@@ -10,6 +10,7 @@ class IndexController extends Controller {
       if(empty($_SESSION['user'])){
           $action_name = __ACTION__;
           $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/Login/index&scope=snsapi_userinfo&response_type=code&state={$action_name}#wechat_redirect";
+         echo $url;die;
           $this->redirect($url);
       }
 
