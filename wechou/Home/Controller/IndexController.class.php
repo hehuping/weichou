@@ -7,12 +7,12 @@ class IndexController extends Controller {
 
   public function _initialize(){
 
-     /* if(empty($_SESSION['user'])){
+      if(empty($_SESSION['user'])){
           $action_name = ACTION_NAME;
           $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/Login/index&scope=snsapi_userinfo&response_type=code&state={$action_name}#wechat_redirect";
         // echo $url;die;
           redirect($url);
-      }*/
+      }
 
      /* $wuser = M('wuser');
       $info = getUserInfo();
@@ -102,7 +102,7 @@ class IndexController extends Controller {
         $spec = $spec_model->where('gid='.$gid)->order('money asc')->select();
         //获取收货地址
         if($addr_id){
-            $addr = $addr_model->where("aid={$addr_id} && uid=1")->find();
+            $addr = $addr_model->where("aid={$addr_id} && uid={$_SESSION['user']['wid']}")->find();
         }
         $addr_id = empty($addr) ? false : $addr_id;
 
@@ -110,7 +110,6 @@ class IndexController extends Controller {
         //$addr = $addr_model->where("uid=1")->find();
 
         $this->assign('addr_id', $addr_id);
-
         $this->assign('addr', $addr);
         $this->assign('spec', $spec);
         $this->display('check');
@@ -120,8 +119,8 @@ class IndexController extends Controller {
 
         $addr_model = M('addr');
         //获取收货地址
-        //$addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
-        $addr = $addr_model->where("uid=1")->select();
+        $addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
+        //$addr = $addr_model->where("uid=1")->select();
 
         $this->assign('addr', $addr);
 
@@ -168,8 +167,8 @@ class IndexController extends Controller {
     public function addrchange(){
         $addr_model = M('addr');
         //获取收货地址
-        //$addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
-        $addr = $addr_model->where("uid=1")->find();
+        $addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
+       // $addr = $addr_model->where("uid=1")->find();
 
         $this->assign('addr', $addr);
         $this->display('addr');
