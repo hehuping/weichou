@@ -44,6 +44,27 @@ p{
 	padding: 10px;
 	width: 40%;
 }
+.t_centers{
+	text-align: center;
+	float: left;
+	padding: 10px;
+	font-size: 2em;
+	width: 70%;
+
+}
+.t_centers .p1{
+	display: block;
+}
+.t_centers .p2{
+	display: block;
+	color: #5e5e5e;
+	font-size: 0.8em;
+}
+.t_rights{
+	float: right;
+	padding: 10px;
+	width: 25%;
+}
 #test1 .t_right{
 	float: left;
 	padding: 10px;

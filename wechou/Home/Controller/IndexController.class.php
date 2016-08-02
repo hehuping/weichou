@@ -7,12 +7,12 @@ class IndexController extends Controller {
 
   public function _initialize(){
 
-      if(empty($_SESSION['user'])){
+     /* if(empty($_SESSION['user'])){
           $action_name = ACTION_NAME;
           $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/Login/index&scope=snsapi_userinfo&response_type=code&state={$action_name}#wechat_redirect";
         // echo $url;die;
           redirect($url);
-      }
+      }*/
 
      /* $wuser = M('wuser');
       $info = getUserInfo();
@@ -94,14 +94,22 @@ class IndexController extends Controller {
     }
 
     public function check(){
+        $addr_id = I('aid');
         $gid = I('goods_id');
         $spec_model = M('spec');
         $addr_model = M('addr');
         //获取规格
         $spec = $spec_model->where('gid='.$gid)->order('money asc')->select();
         //获取收货地址
-        //$addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
-        $addr = $addr_model->where("uid=1")->find();
+        if($addr_id){
+            $addr = $addr_model->where("aid={$addr_id} && uid=1")->find();
+        }
+        $addr_id = empty($addr) ? false : $addr_id;
+
+
+        //$addr = $addr_model->where("uid=1")->find();
+
+        $this->assign('addr_id', $addr_id);
 
         $this->assign('addr', $addr);
         $this->assign('spec', $spec);
@@ -109,6 +117,14 @@ class IndexController extends Controller {
     }
 
     public function addr(){
+
+        $addr_model = M('addr');
+        //获取收货地址
+        //$addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
+        $addr = $addr_model->where("uid=1")->select();
+
+        $this->assign('addr', $addr);
+
         $this->display('addr');
     }
 
@@ -157,5 +173,24 @@ class IndexController extends Controller {
 
         $this->assign('addr', $addr);
         $this->display('addr');
+    }
+
+    public function deleteaddr(){
+        $rep = ['s'=>0, 'error'=>''];
+        $aid = (int)I('aid',0);
+        $aid == 0 ?  $this->error('参数错误') : true;
+        $addr_model = M('addr');
+
+        if($addr_model->where("aid={$aid}")->delete())
+            $this->ajaxReturn($rep);
+
+
+
+            $rep['s'] = -1;
+            $rep['error'] = '数据错误';
+            $this->ajaxReturn($rep);
+
+
+
     }
 }

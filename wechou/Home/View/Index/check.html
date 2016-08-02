@@ -88,7 +88,7 @@
 				<div class="bj"></div>
 				
 				<div class="info5">
-					<a <?php if(empty($addr)){ ?>href="/Index/addr/goods_id/<?php echo $_GET['goods_id']; ?>"<?php }else{ ?> href="/Index/addrchange/goods_id/<?php echo $_GET['goods_id']; ?>" <?php } ?> class="weui_cells">
+					<a href="/Index/addr/goods_id/<?php echo $_GET['goods_id']; ?>" class="weui_cells">
 				        <div class="weui_cell">
 				            <div class="info5_left">
 				            	<img src="/Public/images/Location_568px_1141916_easyicon.net.png" />
@@ -98,7 +98,7 @@
 				            	<p class="p1">{$addr['receive']}（{$addr['phone']}）</p>
 				            	<p class="p2">{$addr['detail']}</p>
 								<?php }else{ ?>
-								<p>请添加收货地址</p>
+								<p>请选择收货地址</p>
 								<?php } ?>
 				            </div>
 				            <div class="info5_right">
