@@ -45,6 +45,13 @@
 	<body>
 		
 		<div class="container">
+			<div id="toast" style="display: none;">
+				<div class="weui_mask_transparent"></div>
+				<div class="weui_toast">
+					<i class="weui_icon_toast"></i>
+					<p class="weui_toast_content">请检查表单</p>
+				</div>
+			</div>
 			<div class="header" style="height: 100px;">
 
 				<div class="weui_navbar">
@@ -57,7 +64,7 @@
 			<div class="weui_cells">
 		        <div class="weui_cell">
 		            <div class="weui_cell_bd weui_cell_primary">
-		            	<div class="t_left"><p>省份</p></div>
+		            	<div class="t_left"><p id="in1">省份</p></div>
 		                <div class="t_center">
 		                	<div name="province" type="selectbox" id="province"><div class="opts"></div></div>
 		                </div>
@@ -69,7 +76,7 @@
 			<div class="weui_cells">
 		        <div class="weui_cell">
 		            <div class="weui_cell_bd weui_cell_primary">
-		            	<div class="t_left"> <p>城市</p></div>
+		            	<div class="t_left"> <p id="in2">城市</p></div>
 		               <div class="t_center">
 						<div name="city" type="selectbox"><div class="opts"></div></div>
 						</div>
@@ -80,7 +87,7 @@
 			<div class="weui_cells">
 		        <div class="weui_cell">
 		            <div class="weui_cell_bd weui_cell_primary">
-		                <div class="t_left"><p>地区</p></div>
+		                <div class="t_left"><p id="in3">地区</p></div>
 		                 <div class="t_center">
 							<div name="area" type="selectbox"><div class="opts"></div></div>
 						</div>
@@ -104,7 +111,7 @@
 		 	<div class="weui_cell">
 	            <div class="weui_cell_hd"><label for="" class="weui_label">手机号</label></div>
 	            <div class="weui_cell_bd weui_cell_primary">
-	                <input class="weui_input" type="number" pattern="[0-9]*" value="weui input error" placeholder="请输入手机号">
+	                <input class="weui_input" id="phones" type="number" pattern="[0-9]*" value="weui input error" placeholder="请输入手机号">
 	            </div>
 	           
 	        </div>
@@ -116,7 +123,7 @@
 		 	<div class="weui_cell">
 	            <div class="weui_cell_hd"><label for="" class="weui_label">收件人</label></div>
 	            <div class="weui_cell_bd weui_cell_primary">
-	                <input class="weui_input" type="text"  value="" placeholder="请输入收件人姓名">
+	                <input class="weui_input" id="recive" type="text"  value="" placeholder="请输入收件人姓名">
 	            </div>
 	           
 	        </div>
@@ -125,21 +132,63 @@
 		 
 		 <div class="info3">
 		 	<div class="weui_btn_area">
-		        <a class="weui_btn weui_btn_primary" href="javascript:" id="showTooltips">保&nbsp;存</a>
+		        <a class="weui_btn weui_btn_primary" href="javascript:" id="showToast">保&nbsp;存</a>
 		    </div>
 		 </div>
-		
-		 
-		 
+
 		 <div style="height: 1000px;"></div>
 			
 		</div>
-		
+
+		<script>
+			$('#showToast').click(function(){
+				var city = $.trim(document.getElementsByName('city')[1].alt);
+				var province = $.trim(document.getElementsByName('province')[1].alt);
+				var area =  $.trim(document.getElementsByName('area')[1].alt);
+				var detail = $.trim($('.weui_textarea').val());
+				var phones = $.trim($('#phones').val());
+				var recive = $.trim($('#recive').val());
+				if(!(/^1[3|4|5|7|8]\d{9}$/.test(phones))){
+					$('#toast').show();
+					setTimeout("$('#toast').hide()", 1500);
+					return false;
+				}
+				if(province==''||city==''||area==''||detail==''||phones==''||recive==''){
+					//console.log(province+city+area+detail+phones+recive);
+					$('#toast').show();
+					setTimeout("$('#toast').hide()", 1500);
+					return false;
+				}
+
+				$.ajax({
+					type: "POST",
+					url: "/Index/saveaddr",
+					data: {'province':province, 'city':city, 'area':area, 'detail':detail,'phones':phones, 'recive':recive},
+					dataType: "json",
+					success: function(data){
+						if(data.s==0){
+							window.location.href='/Index/check/goods_id/<?php echo $_GET["goods_id"] ?>';
+							//history.back(-1);
+
+						}else{
+							$('#toast').show();
+							setTimeout("$('#toast').hide()", 1500);
+							return false;
+						}
+					}
+				});
+
+
+
+			});
+
+		</script>
+
 		<script type="text/javascript" src="/Public/js/example.js" ></script>
 		<script type="text/javascript" src="/Public/js/router.min.js" ></script>
 		<script type="text/javascript" src="/Public/js/zepto.min.js" ></script>
-		
-		
+
+
 		
 	</body>
 </html>

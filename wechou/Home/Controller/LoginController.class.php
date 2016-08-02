@@ -28,7 +28,8 @@ class LoginController extends Controller {
 
         $has = $wuser->where("openid='{$info->openid}'")->find();
         if(!$has){
-            $wuser->add($data);
+            $insert = $wuser->add($data);
+            $data['wid'] = $insert;
             $_SESSION['user'] = $data;
         }else{
             $wuser->where("openid='{$info->openid}'")->save(['last_time'=>date('Y-m-d H:i:s')]);

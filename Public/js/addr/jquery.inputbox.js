@@ -73,7 +73,7 @@
 			//var _width = (opts.width != 'auto')? opts.width : ($o.width() > 0 ? $o.width() : $o.children('.opts').width());
 			
 			$o.css({'width': "100%"}).find('div.selected').css({'height': '50px', 'line-height': '55px'});
-			$o.css({'width': "100%"}).find('div.selected').attr("onclick","bk()");
+			$o.css({'width': "100%"}).find('div.selected').attr("onclick","bk(this)");
 			$o.find('.sb_icon').css({'top': ($o.height() - $o.find('.sb_icon').height())/2});
 			
 			$o.off('click').on('click', selectbox.toggle);
@@ -110,6 +110,7 @@
 			$(this).addClass('selected');
 			$o.find('div.selected').html($(this).html());
 			$o.find('input').val($(this).attr('val'));
+			$o.find('input').attr('alt', $(this).html());
 		},
 		mouseenter: function(e){
 			e.stopPropagation();

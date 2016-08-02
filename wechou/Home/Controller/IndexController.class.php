@@ -96,12 +96,66 @@ class IndexController extends Controller {
     public function check(){
         $gid = I('goods_id');
         $spec_model = M('spec');
+        $addr_model = M('addr');
+        //获取规格
         $spec = $spec_model->where('gid='.$gid)->order('money asc')->select();
+        //获取收货地址
+        //$addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
+        $addr = $addr_model->where("uid=1")->find();
+
+        $this->assign('addr', $addr);
         $this->assign('spec', $spec);
         $this->display('check');
     }
 
     public function addr(){
+        $this->display('addr');
+    }
+
+    public function saveaddr(){
+        $uid = 1;//session('user.wid');
+        if(IS_AJAX){
+            $rep = ['s' => -1, 'error' => '数据缺省'];
+            $data = [
+                'uid'      =>  $uid,
+                'province' => (string)I('province','false'),
+                'city'     => (string)I('city','false'),
+                'area'     => (string)I('area','false'),
+                'detail'   => (string)I('detail','false'),
+                'phone'   => (string)I('phones','false'),
+                'receive'  => (string)I('recive','false')
+            ];
+
+            $value = array_values($data);
+            in_array('false',$value) ? $this->ajaxReturn($rep): true;
+
+            $addr_model = M('addr');
+            if($insert = $addr_model->add($data)){
+                $rep['s'] = 0;
+                $rep['error'] = '';
+                $rep['id'] = $insert;
+                $this->ajaxReturn($rep);
+            }else if($addr_model->save($data)){
+                $rep['s'] = 0;
+                $rep['error'] = '';
+                $this->ajaxReturn($rep);
+            }
+            else {
+                $rep['s'] = -2;
+                $rep['error'] = '数据有误';
+                $this->ajaxReturn($rep);
+            }
+        }
+
+    }
+
+    public function addrchange(){
+        $addr_model = M('addr');
+        //获取收货地址
+        //$addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
+        $addr = $addr_model->where("uid=1")->find();
+
+        $this->assign('addr', $addr);
         $this->display('addr');
     }
 }

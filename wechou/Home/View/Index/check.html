@@ -88,14 +88,18 @@
 				<div class="bj"></div>
 				
 				<div class="info5">
-					<a href="/Index/addr.html" class="weui_cells">
+					<a <?php if(empty($addr)){ ?>href="/Index/addr/goods_id/<?php echo $_GET['goods_id']; ?>"<?php }else{ ?> href="/Index/addrchange/goods_id/<?php echo $_GET['goods_id']; ?>" <?php } ?> class="weui_cells">
 				        <div class="weui_cell">
 				            <div class="info5_left">
 				            	<img src="/Public/images/Location_568px_1141916_easyicon.net.png" />
 				            </div>
 				            <div class="info5_center">
-				            	<p class="p1">何虎平（18397410470）</p>
-				            	<p class="p2">湖南衡阳雁峰区衡阳师范学院南岳学院</p>
+								<?php if(!empty($addr)){ ?>
+				            	<p class="p1">{$addr['receive']}（{$addr['phone']}）</p>
+				            	<p class="p2">{$addr['detail']}</p>
+								<?php }else{ ?>
+								<p>请添加收货地址</p>
+								<?php } ?>
 				            </div>
 				            <div class="info5_right">
 				            	<img src="/Public/images/arrow_right_89px_1189144_easyicon.net.png" />

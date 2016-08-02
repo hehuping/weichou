@@ -78,7 +78,7 @@
 			}
 		}
 		
-		$(obj).find('div[name="province"]').html('<div class="opts">'+ tempStr +'</div');
+		$(obj).find('div[name="province"]').html('<div class="opts">'+ tempStr +'</div>');
 		$(obj).find('div[name="province"]').inputbox({'width':currentOpts.width, 'height':currentOpts.height});
 
 		return _cities;
@@ -130,7 +130,7 @@
 			}
 		}
 		
-		$(obj).find('div[name="area"]').html('<div class="opts">'+ tempStr +'</div');
+		$(obj).find('div[name="area"]').html('<div class="opts">'+ tempStr +'</div>');
 		$(obj).find('div[name="area"]').inputbox({'width':currentOpts.width, 'height':currentOpts.height});
 
 		return _towns;
