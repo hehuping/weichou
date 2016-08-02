@@ -7,15 +7,15 @@ class IndexController extends Controller {
 
   public function _initialize(){
 
-      $user['openid'] = 'oxkais_9JC_if17Vv0fQgI4rZ7-k';
-      $_SESSION['user'] = $user;
+      //$user['openid'] = 'oxkais_9JC_if17Vv0fQgI4rZ7-k';
+     // $_SESSION['user'] = $user;
 
-     /* if(empty($_SESSION['user'])){
+      if(empty($_SESSION['user'])){
           $action_name = ACTION_NAME;
           $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/Login/index&scope=snsapi_userinfo&response_type=code&state={$action_name}#wechat_redirect";
         // echo $url;die;
           redirect($url);
-      }*/
+      }
 
      /* $wuser = M('wuser');
       $info = getUserInfo();
