@@ -7,12 +7,15 @@ class IndexController extends Controller {
 
   public function _initialize(){
 
-      if(empty($_SESSION['user'])){
+      $user['openid'] = 'oxkais_9JC_if17Vv0fQgI4rZ7-k';
+      $_SESSION['user'] = $user;
+
+     /* if(empty($_SESSION['user'])){
           $action_name = ACTION_NAME;
           $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb096e505f9556191&redirect_uri=http://www.zhuanson.com/Login/index&scope=snsapi_userinfo&response_type=code&state={$action_name}#wechat_redirect";
         // echo $url;die;
           redirect($url);
-      }
+      }*/
 
      /* $wuser = M('wuser');
       $info = getUserInfo();
@@ -119,8 +122,10 @@ class IndexController extends Controller {
 
         $addr_model = M('addr');
         //获取收货地址
-        $addr = $addr_model->where("openid='{$_SESSION['user']['openid']}'")->find();
+        $addr = $addr_model->where("openid='{$_SESSION['user']['openid']}'")->select();
         //$addr = $addr_model->where("uid=1")->select();
+
+        //print_r($addr);die;
 
         $this->assign('addr', $addr);
 
@@ -132,7 +137,7 @@ class IndexController extends Controller {
         if(IS_AJAX){
             $rep = ['s' => -1, 'error' => '数据缺省'];
             $data = [
-                'uid'      =>  $openid,
+                'openid'      =>  $openid,
                 'province' => (string)I('province','false'),
                 'city'     => (string)I('city','false'),
                 'area'     => (string)I('area','false'),

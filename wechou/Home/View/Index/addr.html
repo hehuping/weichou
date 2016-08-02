@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="user-scalable=no"/>
 		<title>收货地址添加</title>
 		<link rel="stylesheet" href="/Public/css/home/example.css" />
 		<link rel="stylesheet" href="/Public/css/home/weui.css" />
@@ -48,9 +49,9 @@
 		<div class="container" id="app">
 			<div id="toast" style="display: none;">
 				<div class="weui_mask_transparent"></div>
-				<div class="weui_toast">
-					<i class="weui_icon_toast"></i>
-					<p class="weui_toast_content">请检查表单</p>
+				<div class="weui_toast" style="width: 20em; height: 20em; top: 40%; left:40%">
+					<!--<i class="weui_icon_toast"></i>-->
+					<p class="weui_toast_content" style="color: white; line-height: 7.5em;">请检查表单</p>
 				</div>
 			</div>
 			<div class="header" style="height: 100px;">
@@ -156,7 +157,7 @@
 		 
 		 <div class="info3" v-if="count<5">
 		 	<div class="weui_btn_area">
-		        <a class="weui_btn weui_btn_primary" href="javascript:" id="showToast">保&nbsp;存</a>
+		        <a class="weui_btn weui_btn_primary" href="javascript:" onclick="checkaddr()" id="showToast">保&nbsp;存</a>
 		    </div>
 		 </div>
 		 <div style="height: 1000px;"></div>
@@ -164,19 +165,20 @@
 
 
 		<script>
-			$('#showToast').click(function(){
+			//$('#showToast').click(function(){
+			function checkaddr() {
 				var city = $.trim(document.getElementsByName('city')[1].alt);
 				var province = $.trim(document.getElementsByName('province')[1].alt);
-				var area =  $.trim(document.getElementsByName('area')[1].alt);
+				var area = $.trim(document.getElementsByName('area')[1].alt);
 				var detail = $.trim($('.weui_textarea').val());
 				var phones = $.trim($('#phones').val());
 				var recive = $.trim($('#recive').val());
-				if(!(/^1[3|4|5|7|8]\d{9}$/.test(phones))){
+				if (!(/^1[3|4|5|7|8]\d{9}$/.test(phones))) {
 					$('#toast').show();
 					setTimeout("$('#toast').hide()", 1500);
 					return false;
 				}
-				if(province==''||city==''||area==''||detail==''||phones==''||recive==''){
+				if (province == '' || city == '' || area == '' || detail == '' || phones == '' || recive == '') {
 					//console.log(province+city+area+detail+phones+recive);
 					$('#toast').show();
 					setTimeout("$('#toast').hide()", 1500);
@@ -186,14 +188,21 @@
 				$.ajax({
 					type: "POST",
 					url: "/Index/saveaddr",
-					data: {'province':province, 'city':city, 'area':area, 'detail':detail,'phones':phones, 'recive':recive},
+					data: {
+						'province': province,
+						'city': city,
+						'area': area,
+						'detail': detail,
+						'phones': phones,
+						'recive': recive
+					},
 					dataType: "json",
-					success: function(data){
-						if(data.s==0){
-							window.location.href='/Index/check/goods_id/<?php echo $_GET["goods_id"] ?>/aid/'+data.id;
+					success: function (data) {
+						if (data.s == 0) {
+							window.location.href = '/Index/check/goods_id/<?php echo $_GET["goods_id"] ?>/aid/' + data.id;
 							//history.back(-1);
 
-						}else{
+						} else {
 							$('#toast').show();
 							setTimeout("$('#toast').hide()", 1500);
 							return false;
@@ -202,8 +211,8 @@
 				});
 
 
-
-			});
+			}
+			//});
 
 
 
