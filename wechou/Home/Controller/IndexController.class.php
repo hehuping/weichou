@@ -102,7 +102,7 @@ class IndexController extends Controller {
         $spec = $spec_model->where('gid='.$gid)->order('money asc')->select();
         //获取收货地址
         if($addr_id){
-            $addr = $addr_model->where("aid={$addr_id} && uid={$_SESSION['user']['wid']}")->find();
+            $addr = $addr_model->where("aid={$addr_id} && openid={$_SESSION['user']['openid']}")->find();
         }
         $addr_id = empty($addr) ? false : $addr_id;
 
@@ -119,7 +119,7 @@ class IndexController extends Controller {
 
         $addr_model = M('addr');
         //获取收货地址
-        $addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
+        $addr = $addr_model->where("openid={$_SESSION['user']['openid']}")->find();
         //$addr = $addr_model->where("uid=1")->select();
 
         $this->assign('addr', $addr);
@@ -128,11 +128,11 @@ class IndexController extends Controller {
     }
 
     public function saveaddr(){
-        $uid = 1;//session('user.wid');
+        $openid = session('user.openid');
         if(IS_AJAX){
             $rep = ['s' => -1, 'error' => '数据缺省'];
             $data = [
-                'uid'      =>  $uid,
+                'uid'      =>  $openid,
                 'province' => (string)I('province','false'),
                 'city'     => (string)I('city','false'),
                 'area'     => (string)I('area','false'),
@@ -167,7 +167,7 @@ class IndexController extends Controller {
     public function addrchange(){
         $addr_model = M('addr');
         //获取收货地址
-        $addr = $addr_model->where("uid={$_SESSION['user']['wid']}")->find();
+        $addr = $addr_model->where("openid={$_SESSION['user']['openid']}")->find();
        // $addr = $addr_model->where("uid=1")->find();
 
         $this->assign('addr', $addr);
