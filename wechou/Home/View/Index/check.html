@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="/Public/css/home/weui.css" />
 		<link rel="stylesheet" type="text/css" href="/Public/css/home/check.css"/>
 		<script type="text/javascript" src="/Public/js/jquery1.7.2.min.js" ></script>
+		<script src="/Public/js/vue.js"></script>
 	</head>
 	<body>
 		<div class=container>
@@ -33,25 +34,26 @@
 				
 				<div class="info2">
 					<div class="weui_cells weui_cells_radio">
-						<?php foreach($spec as $k=>$v){ ?>
-				        <label class="weui_cell weui_check_label" for="x{$k}">
+
+				        <label class="weui_cell weui_check_label" v-for="item in spec" for="x{{item.sid}}">
 				            <div class="weui_cell_bd weui_cell_primary">
 				            	<div class="pic">
 				            		<img src="/Public/images/img10.jpg" />
 				            	</div>
 				                <div class="content">
-				                	<p class="p1">{$v.money}</p><p class="p2">&nbsp;元</p><p class="p3">&nbsp;&nbsp;剩余&nbsp;{$v.totlenum}&nbsp;份</p>
-				               		<p>{$v.content}</p>
+				                	<p class="p1">{{item.money}}</p><p class="p2">&nbsp;元</p><p class="p3">&nbsp;&nbsp;剩余&nbsp;{{item.num}}&nbsp;份</p>
+				               		<p>{{item.content}}</p>
 				              	</div>
 				            </div>
 				            <div class="p_right">
 				            	<div class="weui_cell_ft">
-					                <input type="radio" name="radio1" class="weui_check" id="x{$k}" <?php if($k==0)echo 'checked'; ?>>
+					                <input v-if="$index==0" type="radio" name="radio1" class="weui_check" id="x{{item.sid}}" @click="selects(item.sid,$index)" checked="checked">
+									<input v-else type="radio" name="radio1" class="weui_check" id="x{{item.sid}}" @click="selects(item.sid,$index)">
 					                <span class="weui_icon_checked"></span>
 				            	</div>
 				            </div>
 				        </label>
-				       <?php } ?>
+
 				    </div>
 				</div>
 				<div class="bj"></div>
@@ -61,9 +63,9 @@
 				        <div class="weui_cell">
 				            <p>数量</p>
 				            <div class="many">
-				            	<div class="m_left"><a href="javascript:void(0)" onclick="reduce()"><img src="/Public/images/arrows_circle_minus_266px_1182470_easyicon.net.png" /></a></div>
-				            	<div class="m_center"><input type="number" name="count" value="1" id="count"/></div>
-				            	<div class="m_right"><a href="javascript:void(0)" onclick="add()"><img src="/Public/images/arrows_circle_plus_266px_1182471_easyicon.net.png" /></a></div>
+				            	<div class="m_left"><a @click="reduce()"><img src="/Public/images/arrows_circle_minus_266px_1182470_easyicon.net.png" /></a></div>
+				            	<div class="m_center"><input type="number" name="count" v-model="totleNum" id="count"/></div>
+				            	<div class="m_right"><a @click="add()"><img src="/Public/images/arrows_circle_plus_266px_1182471_easyicon.net.png" /></a></div>
 				            </div>
 				        </div>
 				    </div>
@@ -123,7 +125,7 @@
 				
 				<div class="info9">
 						<div class="info9_left">
-							<p>合计：&nbsp;<strong>100</strong>&nbsp;元</p>
+							<p>合计：&nbsp;<strong>{{totleMoney}}</strong>&nbsp;元</p>
 						</div>
 						<div class="info9_center"></div>
 						<div class="info9_right">
@@ -140,21 +142,40 @@
 		</div>
 		
 		<script>
-			function add(){
-				var count = $("#count").val();
-				
-				$("#count").val(parseInt(count)+1);
-			}
-			
-			function reduce(){
-				var count = parseInt($("#count").val());
-				if(count > 1){
-					count-=1;
-				}else{
-					count =1
+
+			var vue = new Vue({
+				el: 'body',
+				data:{
+					spec:[
+					<?php foreach($spec as $v){ ?>
+						{sid:{$v.sid},money:{$v.money},content:'{$v.content}',num:{$v['totlenum']}},
+					<?php } ?>
+					],
+					selectMoney:<?php echo $spec[0]['money']; ?>,
+					totleNum:1,
+				},
+				methods:{
+					selects:function (sid, index){
+							this.selectMoney = this.spec[index].money;
+						},
+					reduce:function (){
+						this.totleNum = this.totleNum > 1 ? this.totleNum-=1 : 1;
+					},
+					add:function(){
+						this.totleNum += 1;
+					}
+				},
+				computed:{
+					totleMoney:function(){
+						var totle = Math.abs(this.selectMoney * this.totleNum);
+						return Math.round(totle*Math.pow(10, 2))/Math.pow(10, 2);
+					}
 				}
-				$("#count").val(count);
-			}
+			});
+
+
+
+
 		</script>
 	
 	</body>
