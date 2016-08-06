@@ -64,7 +64,7 @@
 				            <p>数量</p>
 				            <div class="many">
 				            	<div class="m_left"><a @click="reduce()"><img src="/Public/images/arrows_circle_minus_266px_1182470_easyicon.net.png" /></a></div>
-				            	<div class="m_center"><input type="number" name="count" v-model="totleNum" id="count"/></div>
+				            	<div class="m_center"><input type="number" name="count" v-model="totleNum"/></div>
 				            	<div class="m_right"><a @click="add()"><img src="/Public/images/arrows_circle_plus_266px_1182471_easyicon.net.png" /></a></div>
 				            </div>
 				        </div>
@@ -153,16 +153,19 @@
 					],
 					selectMoney:<?php echo $spec[0]['money']; ?>,
 					totleNum:1,
+					selectIndex:0,
 				},
 				methods:{
 					selects:function (sid, index){
 							this.selectMoney = this.spec[index].money;
+						    this.selectIndex = index;
 						},
 					reduce:function (){
 						this.totleNum = this.totleNum > 1 ? this.totleNum-=1 : 1;
 					},
 					add:function(){
-						this.totleNum += 1;
+						this.totleNum = parseInt(this.totleNum);
+						this.totleNum = this.totleNum >= this.spec[this.selectIndex].num ? this.spec[this.selectIndex].num : this.totleNum+1;
 					}
 				},
 				computed:{
@@ -171,7 +174,11 @@
 						return Math.round(totle*Math.pow(10, 2))/Math.pow(10, 2);
 					}
 				}
-			});
+			})
+
+			Vue.filter('wrap', function (value) {
+				return value
+			})
 
 
 
